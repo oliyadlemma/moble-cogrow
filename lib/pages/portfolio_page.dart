@@ -136,19 +136,25 @@ class _PortfolioPageState extends State<PortfolioPage> {
     Center(
       child: Text(
         'Interested',
-        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+        style: TextStyle(
+          fontSize: 30,
+        ),
       ),
     ),
     Center(
       child: Text(
         'Invested',
-        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+        style: TextStyle(
+          fontSize: 30,
+        ),
       ),
     ),
     Center(
       child: Text(
         'Shortlist',
-        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+        style: TextStyle(
+          fontSize: 30,
+        ),
       ),
     ),
   ];

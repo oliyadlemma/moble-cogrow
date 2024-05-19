@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:fluttersatrtup/pages/message/IndividualPage.dart';
+import 'package:fluttersatrtup/pages/message/Individualchat.dart';
 
 class CustomCard extends StatelessWidget {
   const CustomCard({Key? key}) : super(key: key);
@@ -10,7 +10,7 @@ class CustomCard extends StatelessWidget {
     return InkWell(
       onTap: () {
         Navigator.push(
-            context, MaterialPageRoute(builder: (contex) => IndividualPage()));
+            context, MaterialPageRoute(builder: (context) => ChatScreen()));
       },
       child: Column(
         children: [
